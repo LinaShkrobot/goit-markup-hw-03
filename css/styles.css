@@ -68,9 +68,12 @@ img {
   color: #4d5ae5;
 }
 
+.header-logo {
+  margin-right: 76px;
+}
+
 .header-logo .logo-part {
   color: #2e2f42;
-  margin-right: 76px;
 }
 
 .nav-link {
@@ -112,6 +115,7 @@ img {
 
 .hero-page {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .hero-title {
@@ -140,18 +144,25 @@ img {
   border-radius: 4px;
   min-width: 169px;
   display: block;
+  height: 56px;
+  border: none;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   background: #404bbf;
 }
-.advantages-page {
-  padding-bottom: 138px;
-}
 
-.advantages-title {
-  visibility: hidden;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .advantages-list {
@@ -191,15 +202,14 @@ img {
 
 .team-item {
   background: #fff;
-  padding-bottom: 32px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
   width: calc((100% - 72px) / 4);
 }
 
-.team-item-img {
-  margin-bottom: 32px;
+.team-item-content {
+  padding: 32px 0;
 }
 
 .team-title {
@@ -257,6 +267,8 @@ img {
 
 .portfolio-item-content {
   padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item-title {
@@ -277,11 +289,13 @@ img {
 
 .page-footer {
   background: #2e2f42;
-  padding: 102px 0 100px;
+  padding: 100px 0;
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -290,5 +304,4 @@ img {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   width: 264px;
-  margin-top: 18px;
 }
