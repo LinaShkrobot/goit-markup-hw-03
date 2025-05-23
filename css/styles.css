@@ -292,10 +292,13 @@ img {
   padding: 100px 0;
 }
 
-.footer-logo .logo-part {
-  color: #f4f4fd;
+.logo .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.footer-logo .logo-part {
+  color: #f4f4fd;
 }
 
 .footer-text {
